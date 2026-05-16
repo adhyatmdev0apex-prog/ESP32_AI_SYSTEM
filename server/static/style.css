@@ -1,0 +1,29 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    margin-top:20px;
+    border-radius:12px;
+}
+
+button{
+    background:#2563eb;
+    border:none;
+    padding:12px 20px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    margin-right:10px;
+}
