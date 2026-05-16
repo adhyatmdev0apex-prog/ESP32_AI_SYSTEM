@@ -69,6 +69,14 @@ async def device_config():
         "firmware": "/uploads/firmware.bin"
     }
 
+# upload check
+@app.get("/device_command")
+async def device_command():
+
+    return {
+        "update": False,
+        "firmware": "/uploads/firmware.bin"
+    }
 
 # firmware upload
 @app.post("/upload")
