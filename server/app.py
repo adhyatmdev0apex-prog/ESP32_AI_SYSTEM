@@ -64,9 +64,9 @@ async def get_status():
 async def device_config():
 
     return {
-        "project": "runtime",
-        "version": CURRENT_VERSION,
-        "firmware": "/uploads/runtime/firmware.bin"
+        "project": "manager",
+        "version": "1.0.0",
+        "firmware": "/uploads/firmware.bin"
     }
 
 
