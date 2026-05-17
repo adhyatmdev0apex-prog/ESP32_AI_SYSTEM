@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background:#0f172a;
     color:white;
@@ -27,3 +28,34 @@ button{
     cursor:pointer;
     margin-right:10px;
 }
+=======
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    margin-top:20px;
+    border-radius:12px;
+}
+
+button{
+    background:#2563eb;
+    border:none;
+    padding:12px 20px;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    margin-right:10px;
+}
+>>>>>>> 529af699a2a15e90cec79c391de2c7d5cd81628e

@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 services:
   - type: web
     name: esp32-manager
     runtime: python
     buildCommand: pip install -r requirements.txt
+=======
+services:
+  - type: web
+    name: esp32-manager
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+>>>>>>> 529af699a2a15e90cec79c391de2c7d5cd81628e
     startCommand: uvicorn app:app --host 0.0.0.0 --port 10000
